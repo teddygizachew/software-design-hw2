@@ -161,9 +161,6 @@ class NormalRPS(Strategy):
 
 
 class Context(object):
-    def __init__(self):
-        self.strategy = None
-
     def set_strategy(self, strategy):
         self.strategy = strategy
 
@@ -177,7 +174,7 @@ class Context(object):
         self.strategy.execute()
 
 
-# Client code    
+# Client code
 def main():
     c = Context()
 
