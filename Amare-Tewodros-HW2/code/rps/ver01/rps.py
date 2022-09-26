@@ -11,7 +11,7 @@ while True:
     if user_move == "r" or user_move == "p" or user_move == "s":
         ai_move = random.choice(["r", "p", "s"])
         if ai_move == user_move:
-            print("...TIE...")
+            print("....TIE....")
         if ai_move == "r" and user_move == "p":
             print(f"{user_move} vs {ai_move} ...{emoji.emojize(':thumbs_up:')}")
         if ai_move == "r" and user_move == "s":
